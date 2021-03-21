@@ -5,6 +5,16 @@ body {
     font-weight: 800;
     font-family: Lato, sans-serif;
 }
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.shrink {
+    flex-shrink: 0;
+}
 /* navbar start */
 .nav {
     display: flex;
@@ -146,6 +156,12 @@ li a:hover {text-decoration: underline;}
 }
 
 /* end search bar and buttons */
+
+/*empty div */
+.empty {
+    flex-grow: 1;
+}
+/* end of empty div */
 
 /* footer divs */
 
