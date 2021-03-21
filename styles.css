@@ -1,0 +1,51 @@
+body {
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+    font-family: Lato; sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+nav li {
+    padding: .5rem 1rem;
+    text-shadow: 1px 0 black;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li a:hover {text-decoration: underline;}
+
+.bg:hover{
+    background-color: rgb(20, 20, 20);
+}
+
+.kropki {
+    border-radius: 50%;
+}
+
+.zaloguj {
+    border-radius: 5px;
+    color: white;
+    text-shadow: 0 0 white;
+    padding: .45rem 1.75rem;
+    background-color: rgba(0, 200, 0, .8);
+}
+
+.zaloguj, .kropki:hover {
+    cursor: pointer;
+}
