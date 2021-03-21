@@ -137,6 +137,7 @@ li a:hover {text-decoration: underline;}
     border-radius: 4px;
     background-color: rgb(247, 247, 247);
     padding: .5rem 1rem;
+    color: rgba(0, 0, 0, .6);
 }
 
 .bttns input:hover {
